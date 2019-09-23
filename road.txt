@@ -1,0 +1,12 @@
+Chengdu	Tianjin	3
+Chengdu	Beijing	2
+Chengdu	Chongqing	6
+Tianjin	Chongqing	2
+Tianjin	Shanghai	4
+Beijing	Chongqing	1
+Beijing	Xi'an	3
+Chongqing	Shanghai	1
+Chongqing	Wuhan	4
+Shanghai	Wuhan	3
+Xi'an	Wuhan	4
+London	Manchester	3

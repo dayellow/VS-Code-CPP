@@ -1,0 +1,5 @@
+10	Tony	M	SW
+9	Rose	W	AI
+8	Peter	M	SW
+7	Ketty	W	SW
+13	Jack	M	AI

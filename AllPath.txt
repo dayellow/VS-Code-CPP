@@ -1,0 +1,72 @@
+Chengdu  Tianjin  Chengdu->Tianjin    3
+Chengdu  Beijing  Chengdu->Beijing    2
+Chengdu  Chongqing  Chengdu->Beijing->Chongqing    3
+Chengdu  Shanghai  Chengdu->Beijing->Chongqing->Shanghai    4
+Chengdu  Xi'an  Chengdu->Beijing->Xi'an    5
+Chengdu  Wuhan  Chengdu->Beijing->Chongqing->Wuhan    7
+Chengdu  London  no
+Chengdu  Manchester  no
+Tianjin  Chengdu  Tianjin->Chengdu    3
+Tianjin  Beijing  Tianjin->Chongqing->Beijing    3
+Tianjin  Chongqing  Tianjin->Chongqing    2
+Tianjin  Shanghai  Tianjin->Chongqing->Shanghai    3
+Tianjin  Xi'an  Tianjin->Chongqing->Beijing->Xi'an    6
+Tianjin  Wuhan  Tianjin->Chongqing->Wuhan    6
+Tianjin  London  no
+Tianjin  Manchester  no
+Beijing  Chengdu  Beijing->Chengdu    2
+Beijing  Tianjin  Beijing->Chongqing->Tianjin    3
+Beijing  Chongqing  Beijing->Chongqing    1
+Beijing  Shanghai  Beijing->Chongqing->Shanghai    2
+Beijing  Xi'an  Beijing->Xi'an    3
+Beijing  Wuhan  Beijing->Chongqing->Wuhan    5
+Beijing  London  no
+Beijing  Manchester  no
+Chongqing  Chengdu  Chongqing->Beijing->Chengdu    3
+Chongqing  Tianjin  Chongqing->Tianjin    2
+Chongqing  Beijing  Chongqing->Beijing    1
+Chongqing  Shanghai  Chongqing->Shanghai    1
+Chongqing  Xi'an  Chongqing->Beijing->Xi'an    4
+Chongqing  Wuhan  Chongqing->Wuhan    4
+Chongqing  London  no
+Chongqing  Manchester  no
+Shanghai  Chengdu  Shanghai->Chongqing->Beijing->Chengdu    4
+Shanghai  Tianjin  Shanghai->Chongqing->Tianjin    3
+Shanghai  Beijing  Shanghai->Chongqing->Beijing    2
+Shanghai  Chongqing  Shanghai->Chongqing    1
+Shanghai  Xi'an  Shanghai->Chongqing->Beijing->Xi'an    5
+Shanghai  Wuhan  Shanghai->Wuhan    3
+Shanghai  London  no
+Shanghai  Manchester  no
+Xi'an  Chengdu  Xi'an->Beijing->Chengdu    5
+Xi'an  Tianjin  Xi'an->Beijing->Chongqing->Tianjin    6
+Xi'an  Beijing  Xi'an->Beijing    3
+Xi'an  Chongqing  Xi'an->Beijing->Chongqing    4
+Xi'an  Shanghai  Xi'an->Beijing->Chongqing->Shanghai    5
+Xi'an  Wuhan  Xi'an->Wuhan    4
+Xi'an  London  no
+Xi'an  Manchester  no
+Wuhan  Chengdu  Wuhan->Chongqing->Beijing->Chengdu    7
+Wuhan  Tianjin  Wuhan->Chongqing->Tianjin    6
+Wuhan  Beijing  Wuhan->Chongqing->Beijing    5
+Wuhan  Chongqing  Wuhan->Chongqing    4
+Wuhan  Shanghai  Wuhan->Shanghai    3
+Wuhan  Xi'an  Wuhan->Xi'an    4
+Wuhan  London  no
+Wuhan  Manchester  no
+London  Chengdu  no
+London  Tianjin  no
+London  Beijing  no
+London  Chongqing  no
+London  Shanghai  no
+London  Xi'an  no
+London  Wuhan  no
+London  Manchester  London->Manchester    3
+Manchester  Chengdu  no
+Manchester  Tianjin  no
+Manchester  Beijing  no
+Manchester  Chongqing  no
+Manchester  Shanghai  no
+Manchester  Xi'an  no
+Manchester  Wuhan  no
+Manchester  London  Manchester->London    3
